@@ -1,0 +1,1 @@
+package com.rs.game.npc.glacor;import com.rs.game.Entity;/** *  * @author Tyler Represents all of the glacors and glacyte combat. *  */public interface GlacorAttacks {	/**	 * Handles the attacking of the 'Glacor'	 * 	 * @return	 */	int attack(Glacor glacor, Entity target);}
